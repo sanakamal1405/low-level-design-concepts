@@ -5,6 +5,7 @@ public class Intern extends Employee, TaxCalculator {
         super(fullName, monthlyIncome);
         setNbHoursPerWeek(nbHours);
         INCOME_TAX_PERCENTAGE = 15;
+        PROFESSIONAL_TAX = 0;
         
     }
     
