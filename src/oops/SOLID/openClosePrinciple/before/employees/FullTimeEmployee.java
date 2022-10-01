@@ -4,8 +4,8 @@ public class FullTimeEmployee extends Employee, TaxCalculator implements IEducat
     public FullTimeEmployee(String fullName, int monthlyIncome) {
         super(fullName, monthlyIncome);
         this.setNbHoursPerWeek(40);
-        INCOME_TAX_PERCENTAGE = 20;
-        PROFESSIONAL_TAX_PERCENTAGE = 3;
+        INCOME_TAX_PERCENTAGE = 30;
+        PROFESSIONAL_TAX_PERCENTAGE = 2;
         EDUCATION_TAX_PERCENTAGE=1;
     }
     
