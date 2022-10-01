@@ -14,3 +14,8 @@ public class TaxCalculator {
 
     }
 }
+
+public interface IEducation
+{
+    public int EDUCATION_TAX_PERCENTAGE=1;
+}
